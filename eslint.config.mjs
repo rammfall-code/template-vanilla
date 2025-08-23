@@ -5,6 +5,7 @@ import eslintPluginPrettier from 'eslint-plugin-prettier/recommended';
 
 export default [
   {
+    basePath: './src',
     languageOptions: {
       globals: globals.browser,
     },
